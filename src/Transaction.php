@@ -1,11 +1,9 @@
 <?php
-
     namespace Nobelatunje\Wallet;
 
     use Illuminate\Database\Eloquent\Model;
     use Illuminate\Database\Eloquent\Relations\BelongsTo;
     use Illuminate\Support\Facades\DB;
-
     use Nobelatunje\Wallet\Traits\HasPrivateProperties;
     use Nobelatunje\Wallet\Wallet;
     use Nobelatunje\Wallet\Traits\UsesUuid;
@@ -32,7 +30,6 @@
 
         private const TYPE_CREDIT = "credit";
         private const TYPE_DEBIT = "debit";
-
 
         /**
          * set the wallet_id
